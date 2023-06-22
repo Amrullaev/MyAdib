@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragment">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:saveEnabled="true" />
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:saveEnabled="true"
+        app:backgroundColor="@color/color_light_back"
+        app:iconSize="22dp"
+        app:iconTint="@color/icon_tint_color"
+        app:iconTintActive="@color/white"
+        app:indicatorColor="#00B238"
+        app:indicatorRadius="20dp"
+        app:itemPadding="10dp"
+        app:menu="@menu/menu_bottom"
+        app:sideMargins="10dp"
+        app:textColor="@color/white"
+        app:textSize="12sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24445339209",
+    "project_id": "myadib-37df5",
+    "storage_bucket": "myadib-37df5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24445339209:android:78ab1cb99639c79f3a6198",
+        "android_client_info": {
+          "package_name": "com.amrullaev.myadib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24445339209-9f5htb1s8n5gssvtdddbor1qao7j5i4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAib6D3wQ-yt0Q_tPnexyQoDMO6bUum5g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24445339209-9f5htb1s8n5gssvtdddbor1qao7j5i4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
